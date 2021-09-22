@@ -64934,7 +64934,7 @@ R.a8s.prototype={
 $0:function(){var s=0,r=P.Y(t.P),q=this
 var $async$$0=P.T(function(a,b){if(a===1)return P.V(b,r)
 while(true)switch(s){case 0:s=2
-return P.a1(T.BA(C.c.K("https://cmchat.github.io/st-project/index.html?stuName=",J.ahS(J.b8(J.R(q.a.y.h(0,"name"),"value"))," ")[0])),$async$$0)
+return P.a1(T.BA(C.c.K("https://cmchat.github.io/st-project/index.html?name=",J.ahS(J.b8(J.R(q.a.y.h(0,"name"),"value"))," ")[0])),$async$$0)
 case 2:return P.W(null,r)}})
 return P.X($async$$0,r)},
 $S:32}
