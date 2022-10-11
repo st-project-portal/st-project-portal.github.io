@@ -86776,7 +86776,7 @@ r=(o==null?$.ac=$.b6():o).aR(0,"[DEFAULT]")
 A.aE(r,$.b4())
 o=A.bF(new A.aV(r))
 q=this.w
-A.bQ(o,o.gbc().br(0,q)).an3(0,"project_log.project_manager",s.a.c.h(0,"email")).cf(0).Y(0,new A.auJ(this,[],A.B(p,p)),t.P).aY(new A.auK())},
+A.bQ(o,o.gbc().br(0,q)).an3(0,"project_manager.value",s.a.c.h(0,"email")).cf(0).Y(0,new A.auJ(this,[],A.B(p,p)),t.P).aY(new A.auK())},
 an(){this.aG()
 this.w="students"
 this.ey()},
