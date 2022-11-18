@@ -25100,23 +25100,21 @@ if(J.nn(r,a))r=J.u(b.h(0,r),"value")==null||J.f(J.u(b.h(0,r),"value"),"")
 else r=!1
 if(r)return!1}b.O(0,new A.aCr())
 return!0},
-b7A(a){var s,r,q,p,o,n,m,l,k,j,i,h
+b7A(a){var s,r,q,p,o,n,m,l,k,j
 try{s=a.h(0,"publish")||J.f(a.h(0,"app_status"),1)
 r=a.h(0,"website")||J.f(a.h(0,"app_website_status"),1)
 if(!s||!r)return"Dev"
 q=J.f(a.h(0,"paper_status"),1)
 p=J.f(a.h(0,"patent_status"),1)
 o=a.h(0,"paper")||q
-n=a.h(0,"paper_acc")||q
-m=a.h(0,"patent")||p
-l=a.h(0,"patent_rev")||p
-if(!o||!n||!m||!l)return"Post-Dev"
-k=a.h(0,"pvsa")||J.f(a.h(0,"pvsa_status"),1)
-j=a.h(0,"repo_status")
-if(!k||!j)return"Finalizing"
-return"Finished"}catch(h){i=A.an(h)
+n=a.h(0,"patent")||p
+if(!o||!n)return"Post-Dev"
+m=a.h(0,"pvsa")||J.f(a.h(0,"pvsa_status"),1)
+l=a.h(0,"repo_status")
+if(!m||!l)return"Finalizing"
+return"Finished"}catch(j){k=A.an(j)
 A.V(a)
-A.V(i)
+A.V(k)
 return"Error"}},
 b81(a){if(a==null)return!1
 return A.aF4(a,null)!=null},
