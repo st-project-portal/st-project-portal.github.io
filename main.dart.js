@@ -104240,7 +104240,7 @@ var $async$$1=A.I(function(b,c){if(b===1)return A.E(c,r)
 while(true)switch(s){case 0:o=A
 n=A
 s=3
-return A.J($.rU().eT(0,"fonts/SIMSUN.ttf"),$async$$1)
+return A.J($.rU().eT(0,"assets/fonts/SIMSUN.ttf"),$async$$1)
 case 3:p=new o.Bt(n.d9(c.buffer,0,null),!1,null)
 o=A
 n=!1
