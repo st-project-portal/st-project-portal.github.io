@@ -104336,7 +104336,7 @@ case 4:c=c.aPo(b.bq(a4.buffer,0,null))
 b=a1
 a=A
 s=5
-return A.J(g.ev(0,"fonts/ARIBLK.TTF"),$async$$3)
+return A.J(g.ev(0,"assets/fonts/ARIBLK.TTF"),$async$$3)
 case 5:g=e.bdt(new d.aD4(c,b,new a.vX(a4,!1,null),i),j)
 g.a_d(k,null)
 h.push(g)
